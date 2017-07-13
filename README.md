@@ -11,7 +11,7 @@ npm install perf-function
 ## Usage
 
 ```
-const perf = require('./index.js')
+const perf = require('perf-function')
 
 function test(m, n) {
   const o = {}
@@ -26,7 +26,7 @@ console.log(perf(test)(100000,10000)) // return millseconds
 ```
 
 If you want measure function execution time in browswer, simple add folowing
-code, then `perf` your code.
+code, then `perf` your function.
 
 ```
 
