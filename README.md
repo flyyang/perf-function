@@ -28,7 +28,7 @@ console.log(perf(test)(100000,10000)) // return millseconds
 If you want measure function execution time in browswer, simple add folowing
 code, then `perf` your function.
 
-You can copy and test below code in your broswer console
+You can copy and test below code in your broswer console:
 
 ```
 function perf(fn) {
