@@ -37,7 +37,10 @@ function perf(fn) {
     const end = performance.now()
     return end - start
   }
-
 }
+
+// then
+
+console.log(perf(test)(100000,10000)) // return millseconds
 
 ```
