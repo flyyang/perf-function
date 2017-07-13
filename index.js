@@ -18,7 +18,7 @@ function _browser(fn) {
   }
 }
 
-function perf(fn, accuracy) {
+function perf(fn) {
 
   if (isNode) {
     return  _node(fn)
